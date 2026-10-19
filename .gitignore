@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/vendor/
+backend/node_modules/
+
+# Build output
+frontend/.next/
+out/
+backend/public/build/
+backend/storage/*.key
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+backend/bootstrap/cache/*.php
+backend/storage/app/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/storage/logs/
+backend/database/*.sqlite
+backend/database/*.sqlite-journal
